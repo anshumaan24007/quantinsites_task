@@ -1,0 +1,61 @@
+.rankListMainContainer{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rankContainer{
+    display: grid;
+    padding: 0 1rem;
+    margin: 0;
+    gap:2rem;
+    align-items: flex-start;
+    width: 100%;
+    grid-template-columns: 2% 35% 25% 25%;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 4px;
+}
+.rankContainerHeader{
+    display: grid;
+    padding: 0 1rem;
+    margin-bottom: 22px;
+    gap:2rem;
+    align-items: flex-start;
+    width: 100%;
+    grid-template-columns: 2% 35% 25% 25%;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 4px;
+}
+.companyLogo{
+    border-radius: 4px;
+    height: 48px;
+    width: 48px;
+}
+.companyHeader,.countryTextHeader,.websiteLinkHeader{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.companyText{
+    margin: 0;
+}
+.descText{
+    font-size: 11px;
+    color: #BAB2AF;
+}
+.countryText,.websiteLink{
+    font-size: 12px;
+    font-weight: 500;
+}
+.companyTitle{
+    margin: 0;
+}
+.rankContainer:nth-child(even)
+{
+    background-color:#f9f9f9;
+}
+.rankContainer:nth-child(odd)
+{
+    background-color:#fff;
+}
